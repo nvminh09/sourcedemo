@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo - Swag Labs">
+    <test name="Smoke Test">
+        <classes>
+            <class name="web_sourcedemo.tests.testcases.TC001_AddToCart_Checkout"></class>
+            <class name="web_sourcedemo.tests.testcases.TC002_AddToCart_Count"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
